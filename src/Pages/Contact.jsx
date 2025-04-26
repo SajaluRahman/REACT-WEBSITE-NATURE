@@ -8,12 +8,13 @@ import avtr1 from '../Images/avatar_1.jpg'
 import avtr2 from '../Images/avatar_2.jpg'
 import avtr3 from '../Images/avatar_3.jpg'
 import avtr4 from '../Images/avatar_4.jpg'
+import header1 from '../Images/contact-hero-1.jpg'
 function Contact() {
   return (
     <div>
   <Nav/>
         <Head id="Contact us " style={{
-        backgroundImage: "url('src/Images/contact-hero-1.jpg')"
+        backgroundImage: `url(${header1})`,
       }}/>
 <section>
 

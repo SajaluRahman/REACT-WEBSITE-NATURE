@@ -4,6 +4,7 @@ import img1 from '../Images/service-1.jpg'
 import img2 from '../Images/service-2.jpg'
 import img3 from '../Images/service-3.jpg'
 import Divid from '../Components/Divid'
+import header from '../Images/header-hero.jpg'
 import adm from '../Images/avatar_on_home.png'
 
 
@@ -17,7 +18,7 @@ function Home() {
         <div> <div
             className="h-[70vh] bg-cover bg-center relative "
             style={{
-                backgroundImage: "url('src/Images/header-hero.jpg')"
+                backgroundImage: `url(${header})`,
             }}
         >
             <Nav />

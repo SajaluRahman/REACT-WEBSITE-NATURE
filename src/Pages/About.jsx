@@ -7,6 +7,7 @@ import adm2 from '../Images/avatar_on_about.png'
 
 import img5 from '../Images/contact-hero.jpg'
 import User from '../Components/User'
+import aboutheader from '../Images/header-hero-1.jpg'
 
 
 function About() {
@@ -14,7 +15,7 @@ function About() {
     <div>
   <Nav/>
   <Head id="About us" style={{
-        backgroundImage: "url('src/Images/header-hero-1.jpg')"
+        backgroundImage: `url(${aboutheader})`,
       }}/>
         <div>
         <section className="py-16 bg-white">

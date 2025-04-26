@@ -6,6 +6,7 @@ import imgs1 from '../Images/service-1 (1).jpg'
 import imgs2 from '../Images/service-2 (1).jpg'
 import imgs3 from '../Images/service-3 (1).jpg'
 import Srvc from '../Components/Srvc'
+import serviceheader from '../Images/services-hero.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAward,faStar,faArrowsRotate,faLifeRing } from '@fortawesome/free-solid-svg-icons'
 
@@ -14,7 +15,7 @@ function Services() {
     <div>
   <Nav/>
   <Head id="Our services" style={{
-        backgroundImage: "url('src/Images/services-hero.jpg')"
+        backgroundImage: `url(${serviceheader})`,
       }}/>
        
             <Srvc id={imgs1} class="Web Design"/>
